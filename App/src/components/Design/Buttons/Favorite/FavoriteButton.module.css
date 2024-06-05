@@ -1,0 +1,15 @@
+.button {
+  color: red;
+  background-color: #fdfbfa;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  border-radius: 0;
+}
+
+.active {
+  background-color: red;
+  color: white;
+}

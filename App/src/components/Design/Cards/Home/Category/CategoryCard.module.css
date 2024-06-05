@@ -1,0 +1,31 @@
+.card-link {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  width: 22rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-image {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+.button-wrapper {
+  position: absolute;
+  bottom: 1.2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}

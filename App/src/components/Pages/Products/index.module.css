@@ -1,0 +1,47 @@
+.content-wrapper {
+  padding: 2rem 8rem;
+}
+
+.text-wrapper {
+  max-width: 40%;
+  margin-bottom: 4rem;
+}
+
+.breadcrumbs {
+  color: #2581f9;
+  font-size: 0.7rem;
+}
+
+.text-wrapper h2 {
+  color: #0c2ff2;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 1rem;
+  width: 60rem;
+}
+
+.product-count {
+  color: #ff293b;
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 60rem;
+}

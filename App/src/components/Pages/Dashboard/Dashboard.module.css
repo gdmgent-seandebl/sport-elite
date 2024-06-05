@@ -1,0 +1,23 @@
+.content-wrapper {
+  padding: 2rem 8rem;
+}
+
+h2 {
+  color: #0c2ff2;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}

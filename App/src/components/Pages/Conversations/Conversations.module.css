@@ -1,0 +1,77 @@
+.wrapper {
+  padding: 2rem 8rem;
+}
+
+.container {
+  display: flex;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #f1f0f0;
+}
+
+.item {
+  text-decoration: none;
+  color: #131316;
+  padding: 1rem;
+  border-bottom: 2px solid #e5dfdf;
+}
+
+.item:hover {
+  color: white;
+  background-color: #0c2ff2;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 2rem;
+  border: 3px solid #0c2ff2;
+  margin-left: 2rem;
+  border-radius: 20px;
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.message {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 25rem;
+}
+
+.messageContent {
+  color: black;
+}
+
+.messageSender {
+  font-weight: bold;
+}
+
+.messageTimestamp {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.my {
+  color: white;
+  background-color: #0c2ff2;
+  text-align: right;
+  margin-left: auto;
+}
+
+.my .messageContent {
+  color: white;
+}
+
+.my .messageTimestamp {
+  color: white;
+}

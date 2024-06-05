@@ -1,0 +1,7 @@
+.checkbox-label {
+  display: block;
+}
+
+label span {
+  margin-left: 0.3rem;
+}

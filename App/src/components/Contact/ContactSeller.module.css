@@ -1,0 +1,35 @@
+.contactSeller {
+  margin-top: 1rem;
+}
+
+.contactSeller h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.contactSeller textarea {
+  width: 100%;
+  height: 6.25rem;
+  margin-bottom: 0.625rem;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.contactSeller button {
+  padding: 0.625rem 1.25rem;
+  background-color: #0c2ff2;
+  color: white;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.contactSeller button:hover {
+  background-color: #0c29cc;
+}
+
+.contactSeller .error {
+  color: red;
+  margin-top: 0.625rem;
+}
